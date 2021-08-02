@@ -1,0 +1,11 @@
+{
+    "Token": "j5q3O5TseX1_nVM4Vxqhug",
+    "business_flag": "TEG_AILab_CVC_chongqing",
+    "model_local_file_path": "/apdcephfs/private_xiaojunjia/MM2021-brand/RoundEnd/detectors-r50",
+    "host_num": 1,
+    "host_gpu_num": 8,
+    "task_flag": "mm2021_END_eqlv2_r50",
+    "is_elasticity": false,
+    "GPUName": "V100",
+    "image_full_name": "mirrors.tencent.com/jiaxiaojun/mmdection:latest"
+}
