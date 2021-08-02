@@ -23,7 +23,7 @@
 
 如何选取一个有效的检测模型是该比赛的关键，由于数据量巨多，所以网络模型的选取须谨慎，因为不会有太多时间换模型！（任意一个检测的训练至少需要4天+）因此，我们首先根据coco检测性能排行榜来选取detector。我们选取检测器的原则是**MAP越高越好**，**算法越新越好**，**不盲目听从paper**，有过**竞赛验证和检测框架（MMdetection，Paddle，Detectron）收录优先考虑**。通过对其它目标检测竞赛的学习和分析，发现**cascade**这种级联的结构基本是竞赛提分的必备条件之一，由于Cascade_RCNN比较老，即使通过增加一系列改进，想必性能也会有较大的瓶颈，另外由于对抗干扰的存在，对抗噪声的生成，不可缺少的攻击模型就是Faster_RCNN，所以我们选择了[**detectoRS**](https://arxiv.org/abs/2006.02334)作为我们的检测模型，该模型当前在目标检测coco排行榜排名第七，我们选择了其级联的框架。**Cascade_detectoRS**网络结构如下：
 
-<img src="C:\Users\FenHua\Desktop\MM比赛\方案\pics\framework.jpg" alt="framework" style="zoom: 45%;"/>
+<img src="framework.jpg" alt="framework" style="zoom: 45%;"/>
 
 其中SAC (Switchable Atrous Convolution) 表示可切换的空洞卷积，它可以自适应选择感受野 ，其中 RFP (Recursive Feature Pyramid)采用循环结构来反复利用和精炼提取的特征，“H”表示检测头，我们使用了广泛使用的三级级联结构，“B”表示回归框，“C”表示类别预测结果，“B0”表示RPN网络的输出结果。除此之外，整个网络模型还使用了基于注意力的特征融合机制和类似SENet的全局上下文模块来增强网络的表征能力。显而易见，该网络结构基本**集合了常见的检测涨点的tricks**。对于backbone的选取，一般而言，越大越复杂的特征提取网络，往往具有较好的性能表现，通过对网络复杂程度与训练耗时tradeoff的多次实验和思考，我们最终选择了ResNet50作为基本的网络，并将网络中标准的3*3卷积换成SAC卷积模块。
 
@@ -61,7 +61,7 @@ $$
 
 ##### 检测效果图：
 
-![results](C:\Users\FenHua\Desktop\MM比赛\方案\pics\results.jpg)
+![results](results.jpg)
 
 ### 提分tricks以及一些思考
 
