@@ -37,4 +37,16 @@
 
 **通过此次比赛，我们发现其实每个检测模型都可以很鲁棒，这种鲁棒性并不需要特定的网络结构，模型鲁棒性很大程度取决于训练后网络收敛的位置点，不同的收敛点往往具有较大的鲁棒性差别。如何研究出有效的网络训练策略或许会是网络鲁棒性的基本保证!**:boom:
 
+**Paper Link：** 
+https://arxiv.org/abs/2108.00422
+
 **Please cite：**
+
+@misc{jia2021effective,
+      title={An Effective and Robust Detector for Logo Detection}, 
+      author={Xiaojun Jia and Huanqian Yan and Yonglin Wu and Xingxing Wei and Xiaochun Cao and Yong Zhang},
+      year={2021},
+      eprint={2108.00422},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
