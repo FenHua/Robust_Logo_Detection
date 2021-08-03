@@ -40,6 +40,11 @@
 **Paper Link：** 
 https://arxiv.org/abs/2108.00422
 
+**checkpoint：**
+Link：https://pan.baidu.com/s/1u12MAVgoIke6HobJLfbebg 
+
+Password：6j2o
+
 **Please cite：**
 
 @misc{jia2021effective,
