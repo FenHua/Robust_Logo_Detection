@@ -1,0 +1,5 @@
+|数据集|大小|MD5值|链接|
+|-----|---|-----|----|
+|电商标识检测大赛_复赛_20210608_1.zip|4.01GB|7395eaf3834a3517b68f7a214243af4e | http://tianchi-competition.oss-cn-hangzhou.aliyuncs.com/531888/%E5%A4%8D%E8%B5%9B/%E7%94%B5%E5%95%86%E6%A0%87%E8%AF%86%E6%A3%80%E6%B5%8B%E5%A4%A7%E8%B5%9B_%E5%A4%8D%E8%B5%9B_20210608_1.zip?OSSAccessKeyId=LTAI5tCw4Ub9vZakeRq6atGr&Expires=360001623203019&Signature=Cna7UCpUJ%2BKuWT4ihruyYlAdovE%3D |
+|电商标识检测大赛_复赛_20210608_2.zip|3.99GB|c43b7c2d27e6093f3791f73228141e60| http://tianchi-competition.oss-cn-hangzhou.aliyuncs.com/531888/%E5%A4%8D%E8%B5%9B/%E7%94%B5%E5%95%86%E6%A0%87%E8%AF%86%E6%A3%80%E6%B5%8B%E5%A4%A7%E8%B5%9B_%E5%A4%8D%E8%B5%9B_20210608_2.zip?OSSAccessKeyId=LTAI5tCw4Ub9vZakeRq6atGr&Expires=37623203048&Signature=DoDcjilT%2BunXHi4OUzX2TL%2Bi0%2BQ%3D|
+|testB_imgList.json|13.54MB| | http://tianchi-competition.oss-cn-hangzhou.aliyuncs.com/531888/%E5%A4%8D%E8%B5%9B/testB_imgList.json?OSSAccessKeyId=LTAI5tCw4Ub9vZakeRq6atGr&Expires=1659203081&Signature=eqOEOUNFJuLA62Et6Dof26lg728%3D|
