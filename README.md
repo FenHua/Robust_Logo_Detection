@@ -47,11 +47,11 @@ Password：6j2o
 
 **Please cite：**
 
-@misc{jia2021effective,
-      title={An Effective and Robust Detector for Logo Detection}, 
-      author={Xiaojun Jia and Huanqian Yan and Yonglin Wu and Xingxing Wei and Xiaochun Cao and Yong Zhang},
-      year={2021},
-      eprint={2108.00422},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+```
+@article{jia2021effective,
+  title={An Effective and Robust Detector for Logo Detection},
+  author={Jia, Xiaojun and Yan, Huanqian and Wu, Yonglin and Wei, Xingxing and Cao, Xiaochun and Zhang, Yong},
+  journal={arXiv preprint arXiv:2108.00422},
+  year={2021}
 }
+```
